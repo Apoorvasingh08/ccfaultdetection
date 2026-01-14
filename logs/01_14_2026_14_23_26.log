@@ -1,0 +1,18 @@
+[ 2026-01-14 14:23:29,024 ] 26 root - INFO - Entered the data ingestion method
+[ 2026-01-14 14:23:29,072 ] 35 root - INFO - Read the dataset as dataframe
+[ 2026-01-14 14:23:29,113 ] 41 root - INFO - Train test split initiated
+[ 2026-01-14 14:23:29,153 ] 47 root - INFO - Ingestion of the data is completed
+[ 2026-01-14 14:23:29,153 ] 90 root - INFO - Reading train and test datasets
+[ 2026-01-14 14:23:29,209 ] 103 root - INFO - Loading frequency maps
+[ 2026-01-14 14:23:29,230 ] 110 root - INFO - Applying frequency encoding
+[ 2026-01-14 14:23:29,236 ] 128 root - INFO - Obtaining preprocessing object
+[ 2026-01-14 14:23:29,236 ] 73 root - INFO - Numerical columns: ['amt', 'city_pop', 'age', 'hour', 'merchant_freq', 'zip_freq']
+[ 2026-01-14 14:23:29,236 ] 74 root - INFO - Categorical columns: ['category', 'gender', 'is_weekend']
+[ 2026-01-14 14:23:29,236 ] 132 root - INFO - Applying preprocessing on train and test data
+[ 2026-01-14 14:23:29,246 ] 140 root - INFO - Saving preprocessing object
+[ 2026-01-14 14:23:29,262 ] 31 root - INFO - Splitting training and test input data
+[ 2026-01-14 14:23:29,262 ] 40 root - INFO - Applying SMOTE on training data
+[ 2026-01-14 14:23:29,660 ] 45 root - INFO - Training data balanced using SMOTE
+[ 2026-01-14 14:23:29,660 ] 101 root - INFO - Evaluating models with hyperparameter tuning
+[ 2026-01-14 14:25:34,712 ] 130 root - INFO - Best Model Selected: Random Forest | ROC_AUC: 1.0000 | Recall: 1.0000
+[ 2026-01-14 14:25:34,774 ] 141 root - INFO - Best model saved successfully

@@ -1,0 +1,8 @@
+[ 2026-01-14 14:27:18,089 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-01-14 14:27:18,103 ] 97 werkzeug - INFO -  * Debugger PIN: 446-305-699
+[ 2026-01-14 14:27:42,170 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2026 14:27:42] "GET / HTTP/1.1" 200 -
+[ 2026-01-14 14:27:42,939 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2026 14:27:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-01-14 14:29:35,137 ] 17 root - INFO - Applying preprocessing on input data
+[ 2026-01-14 14:29:35,142 ] 21 root - INFO - Making prediction
+[ 2026-01-14 14:29:35,196 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2026 14:29:35] "POST / HTTP/1.1" 200 -
+[ 2026-01-14 14:29:45,703 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jan/2026 14:29:45] "GET / HTTP/1.1" 200 -
